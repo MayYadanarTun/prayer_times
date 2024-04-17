@@ -121,7 +121,7 @@ $currentDate = (new DateTime())->format("Y-m-d");
           storedData;
         var miniSecondsArr = [];
 
-        $('#mySelect').val(value).change(() => {
+        $('#mySelect').change(() => {
           getPrayerTime();
           // console.log(prayerTime);
 
